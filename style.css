@@ -1,13 +1,22 @@
 a {
   display: inline-block;
   text-align: center;
-  background-color: rgb(233, 215, 187);
-  border-radius: 5px 20px 5px 20px;
+  text-decoration: none;
+  background-color: rgb(253, 247, 232);
+  border-radius: 20px 20px 5px 5px;
   /* width: 50px; */
   height: 20px;
   padding: 0 16px;
   margin: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.048);
+  border: 2.5px solid rgba(0, 0, 0, 0.048);
+}
+
+.left {
+  border-radius: 5px 20px 5px 20px;
+}
+
+.right {
+  border-radius: 20px 5px 20px 5px;
 }
 
 img {
@@ -35,27 +44,51 @@ li {
   margin: auto;
 }
 
-.red {
+h1.red {
   background-color: rgb(255, 159, 159);
 }
 
-.orange {
+h1.orange {
   background-color: rgb(255, 214, 167);
 }
 
-.yellow {
+h1.yellow {
   background-color: rgb(247, 255, 130);
 }
 
-.green {
+h1.green {
   background-color: rgb(121, 255, 139);
 }
 
-.blue {
+h1.blue {
   background-color: rgb(187, 228, 255);
 }
 
-.violet {
+h1.violet {
   background-color: rgb(240, 202, 255);
+}
+
+.red a {
+  border-color: rgb(255, 159, 159);
+}
+
+.orange a {
+  border-color: rgb(255, 214, 167);
+}
+
+.yellow a {
+  border-color: rgb(247, 255, 130);
+}
+
+.green a {
+  border-color: rgb(121, 255, 139);
+}
+
+.blue a {
+  border-color: rgb(187, 228, 255);
+}
+
+.violet a {
+  border-color: rgb(240, 202, 255);
 }
 
