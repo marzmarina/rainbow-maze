@@ -27,3 +27,8 @@ h1 {
 p {
   text-align: center;
 }
+
+li {
+  width: 50px;
+  margin: auto;
+}
