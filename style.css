@@ -34,26 +34,26 @@ li {
 }
 
 .red {
-  background-color: rgb(248, 174, 174);
+  background-color: rgb(255, 159, 159);
 }
 
 .orange {
-  background-color: rgb(250, 214, 174);
+  background-color: rgb(255, 214, 167);
 }
 
 .yellow {
-  background-color: rgb(243, 252, 165);
+  background-color: rgb(247, 255, 130);
 }
 
 .green {
-  background-color: rgb(168, 255, 190);
+  background-color: rgb(121, 255, 139);
 }
 
 .blue {
-  background-color: rgb(189, 199, 255);
+  background-color: rgb(187, 228, 255);
 }
 
 .violet {
-  background-color: rgb(255, 170, 248);
+  background-color: rgb(240, 202, 255);
 }
 
