@@ -20,8 +20,8 @@ a {
 }
 
 img {
-  width: 150px;
-  height: 125px;
+  /* width: 150px; */
+  height: 250px;
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -44,27 +44,27 @@ li {
   margin: auto;
 }
 
-h1.red {
+h1.red, li.red {
   background-color: rgb(255, 159, 159);
 }
 
-h1.orange {
+h1.orange, li.orange {
   background-color: rgb(255, 214, 167);
 }
 
-h1.yellow {
+h1.yellow, li.yellow {
   background-color: rgb(247, 255, 130);
 }
 
-h1.green {
+h1.green, li.green {
   background-color: rgb(121, 255, 139);
 }
 
-h1.blue {
+h1.blue, li.blue {
   background-color: rgb(187, 228, 255);
 }
 
-h1.violet {
+h1.violet, li.violet {
   background-color: rgb(240, 202, 255);
 }
 
