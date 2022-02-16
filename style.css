@@ -1,0 +1,32 @@
+button
+{
+  text-align: center;
+  background-color: rgb(233, 215, 187);
+  border-radius:5px 20px 5px 20px;
+  width:50pxpx;
+  height:20px;
+}
+  
+img
+{
+    width: 150px;
+    height: 125px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+body
+{
+  text-align: center;
+}
+
+h1
+{ text-align: center;
+  /* text-decoration:; */
+  /* text-shadow:; */
+}
+
+p
+{
+  text-align: center;
+}
+ 
