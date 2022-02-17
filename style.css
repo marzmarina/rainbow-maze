@@ -11,6 +11,15 @@ a {
   border: 2.5px solid rgba(0, 0, 0, 0.048);
 }
 
+.easter_egg {
+  display: initial;
+  border: initial;
+  padding: initial;
+  margin: initial;
+  background-color: inherit;
+  color: inherit;
+}
+
 .left {
   border-radius: 5px 20px 5px 20px;
 }
@@ -91,4 +100,3 @@ h1.violet, li.violet {
 .violet a {
   border-color: rgb(240, 202, 255);
 }
-
