@@ -4,9 +4,10 @@
 <head>
   <title>Rainbow Maze</title>
   <link rel="stylesheet" href="style.css">
+  <script src="js/ndex.js"></script>
 </head>
 
-<body>
+<body onload="showWelcomeMessageAndAddSteps()">
   <h1>Colorful rooms</h1>
   <h2><em>Text Maze</em></h2>
   <p>Your task is to get from the red room to the violet room in the minimum number of steps.<br></p>
@@ -19,7 +20,7 @@
     <li class=blue>blue</li>
     <li class=violet><a class= "easter_egg" href="violet-room.html">violet</a></li>
   </ul>
-  <p>Click on the button to start the game</p>
+  <p class="welcome-message">Click on the button to start the game</p>
   <a href="red-room.html">Enter the red room</a>
 </body>
 

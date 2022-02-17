@@ -4,16 +4,18 @@
 <head>
   <title>Violet room</title>
   <link rel="stylesheet" href="style.css">
+  <script src="js/ndex.js"></script>
 </head>
 
-<body class="violet">
+<body class="violet" onload="showGoodbyMessageAndResetSteps()">
   <h1 class=violet>You are in Violet room</h1>
   <h1>Congratulations!</h1>
-  <p>You won a cat!</p>
+  <p>You found a cat!</p>
+  <p class="goodby-message"></p>
 
   <img src="img/violet1.jpg"><br>
 
-  <a href="index.html">Reset</a>
+  <a href="index.html" onkeypress="resetSteps()">Reset</a>
 </body>
 
 </html>
