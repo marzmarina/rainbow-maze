@@ -44,7 +44,7 @@ function addStep() {
 }
 
 function resetSteps() {
-    window.sessionStorage.setItem('steps', 0);
+    window.sessionStorage.removeItem('steps');
 }
 
 function getSteps() {
