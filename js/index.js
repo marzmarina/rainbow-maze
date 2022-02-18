@@ -1,9 +1,11 @@
+// business logic functions
 function showWelcomeMessageAndAddSteps () {
     addStep();
     var steps = getSteps();
 
     if (steps !== 0) {
-        document.getElementsByClassName('welcome-message').innerHTML = 'You wander here already for ' + steps + ' steps.';
+        var welcomeMessageElements = document.getElementsByClassName('welcome-message');
+        welcomeMessageElements[0].innerHTML = 'You wander here already for ' + steps + ' steps.';
     }
 }
 
@@ -11,11 +13,15 @@ function showGoodbyMessageAndResetSteps () {
     var steps = getSteps();
 
     if (steps !== 0) {
-        document.getElementsByClassName('goodby-message').innerHTML = 'You wandered here for ' + steps + ' steps.';
+        var goodbyMessageElements = document.getElementsByClassName('goodby-message');
+        goodbyMessageElements[0].innerHTML = 'You wandered here for ' + steps + ' steps.';
     }
 
     resetSteps();
 }
+
+// -----------------
+// service functions
 
 // sesstion storage used, as it clears when page is closed
 function addStep() {
