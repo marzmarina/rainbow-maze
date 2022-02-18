@@ -21,12 +21,13 @@ function showGoodbyMessageAndResetSteps () {
 }
 
 // -----------------
+
 // service functions
 
 // sesstion storage used, as it clears when page is closed
 function addStep() {
     // get steps amount from session storage
-    var steps = window.sessionStorage.getItem('steps');
+    var steps = getSteps();
 
     if (!steps) {
         // if it is first function call, steps are empty. Set them to default value 
@@ -40,7 +41,11 @@ function addStep() {
     }
 
     // save steps amount
-    window.sessionStorage.setItem('steps', steps);
+    setSteps(steps);
+}
+
+function setSteps(steps) {
+    window.sessionStorage.removeItem('steps', steps);
 }
 
 function resetSteps() {
@@ -49,6 +54,13 @@ function resetSteps() {
 
 function getSteps() {
     var steps = window.sessionStorage.getItem('steps');
+
+    if (!steps) {
+        // if it is first function call, steps are empty. Set them to default value 
+        return null;
+    }
+    // session storage keeps everything as strings, so to iterate we need to convert it to number
+    steps = parseInt(steps, 10);
 
     return steps;
 }
