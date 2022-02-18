@@ -29,7 +29,7 @@ function addStep() {
     // get steps amount from session storage
     var steps = getSteps();
 
-    if (!steps) {
+    if (steps === null) {
         // if it is first function call, steps are empty. Set them to default value 
         steps = 0;
     } else {
